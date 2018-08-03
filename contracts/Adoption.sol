@@ -1,12 +1,15 @@
 pragma solidity ^0.4.17;
 
-// 教程地址：https://truffleframework.com/tutorials/pet-shop
 /*
+
+教程地址：https://truffleframework.com/tutorials/pet-shop
 
 ## solidity语言的特性
 
 - Solidity is a statically-typed language, meaning data types like strings, integers, and arrays must be defined.
 - Solidity is a compiled language, meaning we need to compile our Solidity to bytecode for the Ethereum Virtual Machine (EVM) to execute.
+- public variables have automatic getter methods
+- The memory attribute tells Solidity to temporarily store the value in memory, rather than saving it to the contract's storage.
 
 ## 编译
 
